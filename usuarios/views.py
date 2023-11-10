@@ -1,7 +1,5 @@
 from django.shortcuts import render
 
-# TODO - Create your views here.
-
 def login(request):
     return render(request, "usuarios/login.html")
 
