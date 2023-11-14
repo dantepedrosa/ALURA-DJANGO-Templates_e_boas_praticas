@@ -59,7 +59,7 @@ class CadastroForms(forms.Form):
         )
     )
     senha_2 = forms.CharField(
-        label="Confirmação de senha",
+        label="Confirme sua senha",
         required=True,
         max_length=70,
         widget=forms.PasswordInput(
