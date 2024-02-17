@@ -413,6 +413,12 @@ table {
     --bs-alert-border-color: #feb6b6;
 }
 
+.alert-success {
+    --bs-alert-color: #089814;
+    --bs-alert-bg: #cfffd7;
+    --bs-alert-border-color: #b6fec6;
+}
+
 
 .row {
     --bs-gutter-x: 1.5rem;
